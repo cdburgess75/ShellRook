@@ -1,5 +1,9 @@
 ---
-# ⚡ **Dave's CleanSweep** 
+# Dave's CleanSweep 🧹
+
+Automated system cleanup and malware persistence removal across 21 remediation phases.  
+Built for PowerShell 3.0–7.x with intelligent version-aware execution.
+
 ---
 Automated PUP & Malware Remediation Engine
 
