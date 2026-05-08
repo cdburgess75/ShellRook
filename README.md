@@ -1,8 +1,7 @@
 ---
-
-# ⚡ **Dave's CleanSweep**
-Automated PUP & Malware Remediation Engine
+# ⚡ **Dave's CleanSweep** 
 ---
+Automated PUP & Malware Remediation Engine
 
 <details>
 <summary><strong>📘 Overview</strong></summary>
