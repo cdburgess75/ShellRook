@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/CleanSweep.png" width="300"/>
+</p>
+
 # 🧹 Dave's CleanSweep
 
 **Automated Windows cleanup & malware persistence remediation engine**
