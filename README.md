@@ -1,104 +1,86 @@
 <p align="center">
-  <img src="assets/banner.png" />
+  <img src="assets/sk-logo.svg" width="350">
 </p>
 
-<h1 align="center">ShellKnight</h1>
+<h1 align="center">SK – ShellKnight</h1>
 
 <p align="center">
-  Advanced PowerShell remediation and system cleanup toolkit  
+  PowerShell remediation, cleanup, and operational tooling
 </p>
 
 <p align="center">
-  ⚔️ PUP Removal · 🧠 IOC Detection · 🧰 System Repair · ⚙️ Automation
+  <img src="assets/badges/powershell.svg">
+  <img src="assets/badges/version.svg">
+  <img src="assets/badges/status.svg">
 </p>
 
+<p align="center">
+  <img src="assets/sk-logo.svg" width="300"/>
+</p>
+
+<p align="center">
+  <img src="assets/badges/powershell.svg"/>
+  <img src="assets/badges/version.svg"/>
+  <img src="assets/badges/status.svg"/>
+</p>
+<img src="assets/sk-logo.svg" width="300"/>
 ---
 
 ## ⚔️ What is ShellKnight?
 
-ShellKnight is not a demo script collection.
+ShellKnight (SK) is a collection of real-world PowerShell tooling built from actual system administration, remediation, and incident response work.
 
-It is a **real-world remediation engine** built from operational experience—designed to detect, clean, and report on compromised or degraded Windows systems.
-
-If it exists here, it solved a real problem.
-
----
-
-## 🔥 Core Tool: CleanSweep Engine
-
-At the heart of ShellKnight is:
-
-> **Dave’s CleanSweep v0.66**
-
-A **21-phase remediation pipeline** designed for:
-
-- MSP / RMM deployments  
-- Incident response  
-- System cleanup & stabilization  
-- IOC-driven threat detection  
+This is not a demo repo.  
+These scripts exist because something needed to be fixed.
 
 ---
 
-## 🧠 What Makes It Different
+## 🔥 Core Engine
 
-This is NOT:
-- a simple cleanup script  
-- a generic malware remover  
-- a “delete temp files” tool  
+**Dave’s CleanSweep (v0.66)**
 
-This IS:
+A **21-phase remediation pipeline** designed to:
 
-- ✅ **Phase-based remediation engine (21 stages)**
-- ✅ **Dynamic threat intelligence integration (Neo23x0 + MalwareBazaar)**
-- ✅ **Multi-layer persistence removal**
-- ✅ **StrictMode-safe PowerShell across PS 3.0 → 7.x**
-- ✅ **Zero interaction automation (production ready)**
+- Detect IOC-based threats
+- Remove persistence mechanisms
+- Clean compromised or degraded systems
+- Generate actionable reports
 
 ---
 
-## ⚙️ Capabilities
+## 🧠 Capabilities
 
-### 🛠️ System Remediation
-- Process termination (PUP/adware patterns + dynamic IOC matching)
-- Filesystem cleanup (targeted artifact removal)
-- Service + scheduled task removal (CIM-native, no legacy tools)
-- Registry persistence cleanup (Run/RunOnce, uninstall hives)
+### 🛠️ Remediation
+- Process termination (IOC + pattern matching)
+- Service + scheduled task removal (CIM-native)
+- Registry cleanup (Run keys, uninstall hives)
+- Browser hijacker removal
 
 ---
 
 ### 🧬 Threat Detection
-- Dynamic IOC ingestion (hash, filename, C2)
-- MalwareBazaar hash lookups + fallback layers
-- Defender integration for unknown binaries
-- Trojan family detection (29+ known RAT/stealer groups)
+- Dynamic IOC ingestion (Neo23x0)
+- MalwareBazaar hash lookups
+- Defender fallback scanning
+- RAT / stealer signature detection
 
 ---
 
-### 🧠 Persistence & Abuse Detection
+### 🧠 Persistence Analysis
 - WMI persistence auditing
-- Browser policy hijack cleanup
-- Hosts file C2 detection (with RFC1918 protection)
-- Event log IOC correlation (4688, 7045)
+- Hosts file inspection (C2 detection, safe ranges preserved)
+- Browser policy abuse detection
+- Event log correlation (4688 / 7045)
 
 ---
 
 ### 💾 System Recovery
 - Disk cleanup (safe-mode approach)
-- Windows Update cache repair
-- Temp + log + artifact cleanup
-- Disk usage / system state reporting
+- Temp / cache / update cleanup
+- System state reporting
 
 ---
 
-### 📊 Reporting
-- Structured logging system
-- HTML executive reports
-- IOC / failure / remediation breakdown
-- Environment + system metrics
+## ⚙️ Execution Model
 
----
-
-## ⚔️ Execution Model
-
-The engine runs through:
-
+``
