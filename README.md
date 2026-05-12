@@ -15,7 +15,6 @@
 </p>
 
 <div align="center">
-  <h1>Scripts Built for Battle</h1>
   <p><strong>Enterprise Endpoint Security & Remediation Tool</strong></p>
 
   <img src="https://img.shields.io/badge/PowerShell-3.0%2B-blue?style=for-the-badge" alt="PowerShell"/>
