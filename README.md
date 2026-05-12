@@ -1,6 +1,6 @@
 <!-- LOGO -->
 <p align="center">
-  <img src="assets/sk-logo-light.svg" width="180">
+  <img src="assets/sk-logo.png" width="180">
 </p>
 
 <!-- TITLE -->
