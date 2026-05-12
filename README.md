@@ -1,6 +1,6 @@
 <!-- LOGO -->
 <p align="center">
-  <img src="assets/sk-logo-light.svg" width="220">
+  <img src="assets/sk-logo-light.svg" width="180">
 </p>
 
 <!-- TITLE -->
@@ -17,6 +17,8 @@
   <img src="assets/badges/version.svg">
   <img src="assets/badges/status.svg">
 </p>
+
+<hr>
 
 ---
 
