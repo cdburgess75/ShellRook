@@ -4,7 +4,7 @@
     <!-- GitHub dark mode -->
     <source srcset="assets/sk-logo-light.png" media="(prefers-color-scheme: dark)">
     <!-- GitHub light mode -->
-    <img src="assets/sk-logo-dark.png" width="600">
+    <img src="assets/sk-logo-light.png" width="600">
   </picture>
 </p>
 
