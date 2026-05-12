@@ -1,6 +1,32 @@
-<div align="center">
+# 🛡️ ShellKnight
 
-<img src="/assets/CleanSweep.png" alt="Dave's CleanSweep Logo" width="160"/>
+**ShellKnight** is a curated toolbox of PowerShell scripts for automation, system administration, and operational tasks.
+
+---
+
+## ⚔️ Overview
+
+ShellKnight provides a collection of reusable, practical PowerShell scripts designed to simplify everyday work.
+
+Built for:
+- System administrators
+- DevOps engineers
+- Automation enthusiasts
+
+---
+
+## 🧰 Key Features
+
+- Modular script design
+- Real-world utility (not demos)
+- Clean, readable PowerShell
+- Easy to extend and customize
+
+---
+
+## 📂 Structure
+
+``OLD:
 
 # ShellRook
 
@@ -16,7 +42,7 @@
 
 ---
 
-## What is CleanSweep?
+## What is ShellKnight?
 
 Dave's CleanSweep is a fully automated, silent PowerShell remediation tool built for MSP/RMM deployment. It scans and cleans Windows endpoints across 22 phases — removing PUPs, browser hijackers, adware, malware persistence mechanisms, and collecting actionable intelligence — all without any user interaction or pop-ups.
 
