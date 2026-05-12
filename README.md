@@ -1,29 +1,17 @@
+<!-- LOGO -->
 <p align="center">
-  <img src="assets/sk-logo.svg" width="350">
+  <img src="assets/sk-logo-light.svg" width="220">
 </p>
 
+<!-- TITLE -->
 <h1 align="center">SK – ShellKnight</h1>
 
+<!-- TAGLINE -->
 <p align="center">
   PowerShell remediation, cleanup, and operational tooling
 </p>
 
-<p align="center">
-  <img src="assets/badges/powershell.svg">
-  <img src="assets/badges/version.svg">
-  <img src="assets/badges/status.svg">
-</p>
-
-<p align="center">
-  <img src="assets/sk-logo.svg" width="300"/>
-</p>
-
-<p align="center">
-  <img src="assets/badges/powershell.svg"/>
-  <img src="assets/badges/version.svg"/>
-  <img src="assets/badges/status.svg"/>
-</p>
-
+<!-- BADGES -->
 <p align="center">
   <img src="assets/badges/powershell.svg">
   <img src="assets/badges/version.svg">
