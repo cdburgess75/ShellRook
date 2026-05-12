@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="white"/>
+  <path d="M256 60 L410 140 L380 380 L256 460 L132 380 L102 140 Z" fill="none" stroke="#16a34a" stroke-width="12"/>
+  <path d="M180 200 Q256 120 332 200 L332 280 Q256 340 180 280 Z" fill="#e5e7eb"/>
+  <rect x="180" y="210" width="152" height="100" fill="white"/>
+  <text x="256" y="270" text-anchor="middle" fill="#16a34a" font-size="48" font-family="monospace">SK&gt;</text>
+</svg>
