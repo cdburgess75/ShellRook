@@ -23,7 +23,13 @@
   <img src="assets/badges/version.svg"/>
   <img src="assets/badges/status.svg"/>
 </p>
-<img src="assets/sk-logo.svg" width="300"/>
+
+<p align="center">
+  <img src="assets/badges/powershell.svg">
+  <img src="assets/badges/version.svg">
+  <img src="assets/badges/status.svg">
+</p>
+
 ---
 
 ## ⚔️ What is ShellKnight?
