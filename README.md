@@ -2,9 +2,15 @@
 <p align="center">
   <picture>
     <!-- GitHub dark mode -->
-    <source srcset="assets/banner-light.png" media="(prefers-color-scheme: dark)">
+    <source srcset="assets/sk-logo-light.png" media="(prefers-color-scheme: dark)">
     <!-- GitHub light mode -->
-    <img src="assets/banner-dark.png" width="600">
+    <img src="assets/sk-logo-dark.png" width="600">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source srcset="assets/sk-logo.png">
   </picture>
 </p>
 
